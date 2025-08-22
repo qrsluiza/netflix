@@ -8,7 +8,18 @@
     position: fixed;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+
     gap: 24px;
+   
+    width: 100%;
+
+    border: solid 1px blue;
+}
+
+.Topo1{
+    display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
@@ -17,7 +28,7 @@
 }
 
 .link{
-    color: #ffffff;
+    color: #ff0a0a;
     font-size: 15px;
     font-weight: bold;
 }
